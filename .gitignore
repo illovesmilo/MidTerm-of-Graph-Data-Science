@@ -1,0 +1,26 @@
+# Virtual environment (recreate with: uv venv myvenv --python 3.10)
+myvenv/
+.venv/
+venv/
+
+# Python & Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Kaggle download archive & unused dataset files
+ecommerce-dataset.zip
+item_properties_part*.csv
+category_tree.csv
+
+# Exam sheet (not part of the submission)
+*.pdf
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env

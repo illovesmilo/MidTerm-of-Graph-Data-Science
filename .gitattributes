@@ -1,0 +1,10 @@
+# Datasets are treated as binary: no diff, no line-by-line merge,
+# and Git never changes their line endings (CSV content stays byte-identical).
+*.csv binary
+
+# Code and documents use LF line endings in the repository.
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.ipynb text eol=lf
